@@ -1,1 +1,21 @@
-
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Würfelspiel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Würfelspiel</h1>
+    <div id="spiel-info">
+        <p>Punkte-Summe: <span id="punkte">0</span></p>
+        <p>Verbleibende Versuche: <span id="versuche">3</span></p>
+        <p>Gewürfelte Zahl: <span id="wurf">-</span></p>
+    </div>
+    <p id="nachricht"></p>
+    <button id="start">Start</button>
+    <button id="restart">Neu starten</button>
+    <p class="hinweis">Du hast 3 Versuche. Erreiche mindestens 15 Punkte.</p>
+    <script src="app.js"></script>
+</body>
+</html>
